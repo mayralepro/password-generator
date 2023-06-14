@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <h1>Generate a random password</h1>
+    <p>Never use an insecure password again.</p>
+
+    <p>
+      With symbols?
+      <label>
+        <input id="check-symbol" type="checkbox" name="choice-radio" />
+        Yes
+      </label>
+    </p>
+
+    <button onclick="generatePass()">Generate passwords</button>
+    <p id="pass1"></p>
+    <p id="pass2"></p>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
