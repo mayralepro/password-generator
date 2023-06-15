@@ -1,0 +1,54 @@
+body {
+  color: greenyellow;
+  background-color: black;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Bungee", cursive;
+  font-size: 50px;
+}
+
+button {
+  font-family: "Bungee", cursive;
+  color: white;
+  background-color: greenyellow;
+  color: black;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-family: "Bruno Ace", cursive;
+  font-size: 25px;
+}
+
+.check {
+  font-family: "Bruno Ace", cursive;
+  font-size: 25px;
+}
+
+#pass1,
+#pass2 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 35px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 35px;
+  }
+}

@@ -4,23 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bungee&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Password Generator</title>
   </head>
   <body>
-    <h1>Generate a random password</h1>
-    <p>Never use an insecure password again.</p>
+    <div class="flex-container">
+      <h1>Generate a random password</h1>
+      <h3>Never use an insecure password again.</h3>
 
-    <p>
-      With symbols?
-      <label>
-        <input id="check-symbol" type="checkbox" name="choice-radio" />
-        Yes
-      </label>
-    </p>
+      <p class="check">
+        With symbols?
+        <label>
+          <input id="check-symbol" type="checkbox" name="choice-radio" />
+          Yes
+        </label>
+      </p>
 
-    <button onclick="generatePass()">Generate passwords</button>
-    <p id="pass1"></p>
-    <p id="pass2"></p>
+      <button onclick="generatePass()">Generate passwords</button>
+      <p id="pass1"></p>
+      <p id="pass2"></p>
+    </div>
 
     <script src="./js/main.js"></script>
   </body>
